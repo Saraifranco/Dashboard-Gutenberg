@@ -17,6 +17,7 @@ function LastProducts() {
             .then(res => res.json())
             .then(data => {
                 let array = data.data
+                console.log(array)
                 setLibros(array)
             })
 
@@ -29,31 +30,24 @@ function LastProducts() {
                 <div className="table-responsive">
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
                         <thead>
-
-                            <th>ID</th>
-                            <th>TITULO</th>
-                            <th>AUTOR</th>
-                            <th>FORMATO</th>
-                            <th>MEDIO</th>
-                            <th>IDIOMA</th>
-                            <th>RESENA</th>
-                            <th>GENERO</th>
-                            <th>ENDPONT</th>
-
+                            <tr>
+                                <th>ID</th>
+                                <th>TITULO</th>
+                                <th>AUTOR</th>
+                                <th>RESENA</th>
+                                <th>ENDPONT</th>
+                            </tr>
                         </thead>
-                        {libros.map((dato, i) =>
+                        {libros.map((dato, i) => {
 
-                            <Tabla3 key={i}
-                                id={dato.id}
-                                titulo={dato.titulo}
-                                autor={dato.autores}
-                                formato={dato.formatos}
-                                medio={dato.medios}
-                                idioma={dato.idiomas}
-                                description={dato.description}
-                                genero={dato.generos}
-                                endpoint={dato.endpoint}
-                            />
+                            return < Tabla3 key = { i }
+                                        id = { dato.id }
+                                        titulo = { dato.titulo }
+                                        autorName = {dato.autor.nombres}
+                                        description = { dato.description }
+                                        endpoint = { dato.endpoint }
+                                    />
+                        }
                         )}
                     </table>
                 </div>
