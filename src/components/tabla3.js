@@ -2,14 +2,14 @@ import React from "react";
 //import PropTypes from "prop-types";
 
 
-function Tabla3({id,titulo,autorName,description,endpoint}){
-    console.log(autorName)
+function Tabla3({id,titulo,autor,description,endpoint}){
     return (
         <tbody>
             <tr>
                 <td>{id}</td>
                 <td>{titulo}</td>
-                {/* <td>{autorName.nombres}</td> */}
+                <td>{autor.nombres}</td>
+                <td>{autor.apellidos}</td>
                 <td>{description}</td>
                 <td>{endpoint}</td>
             </tr>

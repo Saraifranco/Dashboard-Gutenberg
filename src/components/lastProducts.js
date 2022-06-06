@@ -6,6 +6,7 @@ function LastProducts() {
         {
             id: "Ninguna información",
             titulo: "Ninguna información",
+            autor:"Ninguna información",
             imagen: "Ninguna infomación",
             endpoint: "Ninguna infomación"
         }
@@ -43,7 +44,7 @@ function LastProducts() {
                             return < Tabla3 key = { i }
                                         id = { dato.id }
                                         titulo = { dato.titulo }
-                                        autorName = {dato.autor.nombres}
+                                        autor = {dato.autor}
                                         description = { dato.description }
                                         endpoint = { dato.endpoint }
                                     />
