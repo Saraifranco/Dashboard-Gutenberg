@@ -30,7 +30,7 @@ function TablaUsers(){
                 <div className="table-responsive">
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
                         <thead>
-                            <tr>
+                            <tr className="liston4">
                                 <th>ID</th>
                                 <th>NOMBRE</th>
                                 <th>APELLIDO</th>

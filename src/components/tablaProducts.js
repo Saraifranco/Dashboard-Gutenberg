@@ -30,11 +30,11 @@ function TablaProducts(){
                 <div className="table-responsive">
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
                         <thead>
-                            <tr>
+                            <tr className="liston">
                                 <th>ID</th>
-                                <th>TITULO</th>
-                                <th>GENERO</th>
-                                <th>ENDPONT</th>
+                                <th>TÍTULO</th>
+                                <th>GÉNERO</th>
+                                <th>ENDPOINT</th>
                             </tr>
                         </thead>
                         {libros.map((dato,i)=>

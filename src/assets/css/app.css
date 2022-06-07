@@ -4,9 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
+    margin-top: 120px;
     font-family: 'Roboto', sans-serif;
     background: rgb(241, 239, 122)
 }
@@ -222,4 +224,6 @@ footer .bold {
         border: none;
         border-bottom: none;
     }
+
+    
 }

@@ -31,12 +31,12 @@ function LastProducts() {
                 <div className="table-responsive">
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
                         <thead>
-                            <tr>
+                            <tr className="liston3">
                                 <th>ID</th>
-                                <th>TITULO</th>
+                                <th>TÍTULO</th>
                                 <th>AUTOR</th>
-                                <th>RESENA</th>
-                                <th>ENDPONT</th>
+                                <th>RESEÑA</th>
+                                <th>ENDPOINT</th>
                             </tr>
                         </thead>
                         {libros.map((dato, i) => {
@@ -48,7 +48,7 @@ function LastProducts() {
                                         description = { dato.description }
                                         endpoint = { dato.endpoint }
                                     />
-                        }
+                        }   
                         )}
                     </table>
                 </div>
