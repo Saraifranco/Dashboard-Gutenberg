@@ -4,19 +4,19 @@ import React from "react";
 
 function Tabla2({id,nombres,apellidos,email,endpoint}) {
     return (
-        <tbody>
-            <tr>
+        <tbody className="tablaUsuarios">
+            <tr className="listaUsuarios">
                 <td>{id}</td>
                 <td>{nombres}</td>
                 <td>{apellidos}</td>
                 <td>
                     <ul>
-                        <li>{email}</li>
+                        <li className="emailUsuarios">{email}</li>
                     </ul>
                 </td>
                 <td>{endpoint}</td>
             </tr>
-        </tbody>
+        </tbody>    
     )
 }
 

@@ -47,7 +47,8 @@ function TablaTotals(){
         <div className="card shadow mb-4">
             <div className="card-body">
                 <div className="table-responsive">
-                    <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
+                    <thead className="totales">TOTALES
+                    <table className="table table-bordered" id="dataTable" width="230%" cellSpacing="0">
                         {datos.map((dato,i)=>
 
                             <Tabla5 key={i} 
@@ -56,6 +57,7 @@ function TablaTotals(){
                             />
                         )}
                     </table>
+                    </thead>
                 </div>
             </div>
         </div>

@@ -30,13 +30,13 @@ function LastProducts() {
             <div className="card-body">
                 <div className="table-responsive">
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
-                        <thead>
+                        <thead>ÚLTIMOS PRODUCTOS
                             <tr className="liston3">
                                 <th>ID</th>
-                                <th>TÍTULO</th>
+                                {/* <th>TÍTULO</th>
                                 <th>AUTOR</th>
                                 <th>RESEÑA</th>
-                                <th>ENDPOINT</th>
+                                <th>DETALLE</th> */}
                             </tr>
                         </thead>
                         {libros.map((dato, i) => {
@@ -45,7 +45,7 @@ function LastProducts() {
                                         id = { dato.id }
                                         titulo = { dato.titulo }
                                         autor = {dato.autor}
-                                        description = { dato.description }
+                                        // description = { dato.description }
                                         endpoint = { dato.endpoint }
                                     />
                         }   

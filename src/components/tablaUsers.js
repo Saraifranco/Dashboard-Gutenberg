@@ -29,13 +29,13 @@ function TablaUsers(){
             <div className="card-body">
                 <div className="table-responsive">
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
-                        <thead>
+                        <thead>USUARIOS
                             <tr className="liston4">
                                 <th>ID</th>
                                 <th>NOMBRE</th>
                                 <th>APELLIDO</th>
                                 <th>EMAIL</th>
-                                <th>ENDPONT</th>
+                                <th>DETALLE</th>
                             </tr>
                         </thead>
                         {usuarios.map((dato,i)=>

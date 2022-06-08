@@ -5,9 +5,9 @@ import React from "react";
 function Tabla5({titulo,count}){
     return (
         <tbody>
-            <tr>
+            <tr className="totalesLista">
                 <td>{titulo}</td>
-                <td>{count}</td>
+                <td className="tdCount">{count}</td>
             </tr>
         </tbody>
     )

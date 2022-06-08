@@ -29,12 +29,12 @@ function TablaProducts(){
             <div className="card-body">
                 <div className="table-responsive">
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
-                        <thead>
+                        <thead>PRODUCTOS
                             <tr className="liston">
                                 <th>ID</th>
                                 <th>TÍTULO</th>
                                 <th>GÉNERO</th>
-                                <th>ENDPOINT</th>
+                                <th>DETALLE</th>
                             </tr>
                         </thead>
                         {libros.map((dato,i)=>

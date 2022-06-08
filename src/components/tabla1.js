@@ -10,7 +10,7 @@ function Tabla1({id,titulo,genero,endpoint}) {
                 <td>{titulo}</td>
                 <td>
                     <ul>
-                        <li>{genero}</li>
+                        <li className="libroGenero">{genero}</li>
                     </ul>
                 </td>
                 <td>{endpoint}</td>

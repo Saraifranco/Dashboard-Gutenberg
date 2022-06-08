@@ -26,7 +26,7 @@ function TablaCategories(){
             <div className="card-body">
                 <div className="table-responsive">
                     <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
-                        <thead>
+                        <thead>CATEGORÍAS
                             <tr className="liston2">
                                 <th>NOMBRE DEL GENERO</th>
                                 <th>CANTIDAD DE LIBROS POR GENERO</th>
