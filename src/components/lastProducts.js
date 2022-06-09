@@ -33,10 +33,11 @@ function LastProducts() {
                         <thead>ÚLTIMOS PRODUCTOS
                             <tr className="liston3">
                                 <th>ID</th>
-                                {/* <th>TÍTULO</th>
+                                <th>TÍTULO</th>
                                 <th>AUTOR</th>
-                                <th>RESEÑA</th>
-                                <th>DETALLE</th> */}
+                                <th className="autorLastProduct">AUTOR</th>
+                                <th className="reseniaLastProduct">RESEÑA</th>
+                                <th>DETALLE</th>
                             </tr>
                         </thead>
                         {libros.map((dato, i) => {

@@ -64,6 +64,14 @@ thead {
     border-radius: 10px;
 }
 
+.autorLastProduct {
+    color: rgb(167, 216, 244);
+}
+
+.reseniaLastProduct {
+    color: rgb(167, 216, 244);
+}
+
 #root ::-webkit-scrollbar {
     width: 10px;
 }
